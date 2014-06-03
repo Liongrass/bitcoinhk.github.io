@@ -23,11 +23,7 @@ blogs:
     feed: "https://blog.pay4bugs.com/atom.xml"
     url: "https://blog.pay4bugs.com/"
     twitter: "pay4bugs"
-  - author: "Anson Zeall"
-    feed: "http://stoxster.com/ansonzeall/feed/"
-    url: "http://stoxster.com/ansonzeall/"
-    twitter: "pay4bugs"    
-    
+
     
    
 
