@@ -1,0 +1,21 @@
+ <article class="hentry">
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags">{% for tag in post.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="posts tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
+        {% if post.link %}
+          <h1><a href="{{ post.url }}">{% if post.headline %}{{ post.headline }}{% else %}{{ post.title }}{% endif %} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          {% if post.original_url %}
+          <h1><a href="{{ post.original_url }}">{% if post.headline %}{{ post.headline }}{% else %}{{ post.title }}{% endif %}</a></h1>
+          {% else %}
+          <h1><a href="{{ post.url }}">{% if post.headline %}{{ post.headline }}{% else %}{{ post.title }}{% endif %}</a></h1>
+          {% endif %}
+        {% endif %}
+      </header>
+
+      <div class="entry-content">
+        {{ post.content }}
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+
+  </article>
