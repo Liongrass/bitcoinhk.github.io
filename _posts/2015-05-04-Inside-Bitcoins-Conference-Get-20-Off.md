@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Inside Bitcoins Conference - Get 20% Off
