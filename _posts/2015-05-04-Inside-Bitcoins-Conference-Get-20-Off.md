@@ -6,7 +6,7 @@ published: false
 
 We at the Bitcoin Association of Hong Kong are very excited to announce our partnership with Inside Bitcoins Conference and Expo as they return to Hong Kong for their second year. The two day conference will see an extensive line-up of local and international experts, as well as exhibitions from notable industry leaders.
 
-![](//media/ibchk_728x90.jpg)
+![](//media/2015/05ibchk_728x90.jpg)
 
 - When: May 14-15, 2015
 
